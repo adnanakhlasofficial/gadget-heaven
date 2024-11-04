@@ -4,34 +4,40 @@ import Home from "../pages/Home";
 import Statistics from "../pages/Statistics";
 import Dashboard from "../pages/Dashboard";
 import ProductCards from "../components/ProductCards";
+import ProductDetails from "../components/ProductDetails";
 
 const routes = createBrowserRouter([
-    {
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
         path: "/",
-        element: <App />,
+        element: <Home />,
+        loader: () => fetch("/categories.json"),
         children: [
-            {
-                path: "/",
-                element: <Home />,
-                loader: () => fetch('/categories.json'),
-                children: [
-                    {
-                        path: "/category/:product",
-                        element: <ProductCards />,
-                        loader: () => fetch('../products.json')
-                    }
-                ]
-            },
-            {
-                path: "/statistics",
-                element: <Statistics />
-            },
-            {
-                path: "/dashboard",
-                element: <Dashboard />
-            }
-        ]
-    }
-])
+          {
+            path: "/category/:product",
+            element: <ProductCards />,
+            loader: () => fetch("../products.json"),
+          },
+        ],
+      },
+      {
+        path: "/statistics",
+        element: <Statistics />,
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard />,
+      },
+      {
+        path: "/product/:id",
+        element: <ProductDetails />,
+        loader: () => fetch("../products.json"),
+      },
+    ],
+  },
+]);
 
 export default routes;

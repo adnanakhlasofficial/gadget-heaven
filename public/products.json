@@ -3,178 +3,240 @@
     {
       "product_id": "LAP001",
       "product_name": "Dell XPS 13",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Laptop",
       "price": 1199.99,
-      "description": "Dell XPS 13 with 13.4-inch FHD+ display, 11th Gen Intel Core i7, and thin, lightweight design.",
+      "description": "Dell XPS 13 with 13.4-inch FHD+ display, 11th Gen Intel Core i7, and thin design.",
       "speciality": "Bezel-less display, lightweight, high performance",
-      "stock_availability": "In Stock",
-      "rating": 4.8
+      "stock_availability": true,
+      "rating": 4.8,
+      "specifications": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "13.4-inch FHD+ (1920 x 1200)",
+        "graphics": "Intel Iris Xe",
+        "battery_life": "Up to 12 hours",
+        "weight": "1.2 kg",
+        "operating_system": "Windows 11"
+      }
     },
     {
       "product_id": "LAP002",
       "product_name": "MacBook Air M2",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Laptop",
-      "price": 1299.99,
-      "description": "Apple MacBook Air M2 with Retina display, M2 chip, and up to 18 hours of battery life.",
-      "speciality": "Power-efficient, slim design, vibrant Retina display",
-      "stock_availability": "Out of Stock",
-      "rating": 4.9
+      "price": 1249.99,
+      "description": "Apple MacBook Air with M2 chip, 13.6-inch Retina display, and all-day battery life.",
+      "speciality": "M2 chip, lightweight, fanless design",
+      "stock_availability": true,
+      "rating": 4.9,
+      "specifications": {
+        "processor": "Apple M2",
+        "ram": "8GB, upgradable to 24GB",
+        "storage": "256GB, 512GB, 1TB, 2TB SSD",
+        "display": "13.6-inch Retina (2560 x 1664)",
+        "battery_life": "Up to 18 hours",
+        "weight": "1.24 kg",
+        "operating_system": "macOS"
+      }
     },
     {
       "product_id": "LAP003",
-      "product_name": "Lenovo ThinkPad X1 Carbon",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
-      "category": "Laptop",
-      "price": 1449.99,
-      "description": "Lenovo ThinkPad X1 Carbon with 14-inch display, Intel i7, and robust build quality.",
-      "speciality": "Durable, business-class security features",
-      "stock_availability": "In Stock",
-      "rating": 4.7
-    },
-    {
-      "product_id": "LAP004",
       "product_name": "HP Spectre x360",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Laptop",
       "price": 1399.99,
-      "description": "HP Spectre x360 with 13.3-inch touchscreen display, convertible design, and Intel i7.",
-      "speciality": "Convertible design, touchscreen, stylus support",
-      "stock_availability": "In Stock",
-      "rating": 4.5
+      "description": "HP Spectre x360 with 13.5-inch UHD OLED touch display and Intel Evo technology.",
+      "speciality": "2-in-1 design, vibrant OLED display",
+      "stock_availability": false,
+      "rating": 4.6,
+      "specifications": {
+        "processor": "Intel Core i7-1165G7",
+        "ram": "16GB LPDDR4x",
+        "storage": "512GB SSD",
+        "display": "13.5-inch UHD OLED",
+        "graphics": "Intel Iris Xe",
+        "battery_life": "Up to 13 hours",
+        "weight": "1.3 kg",
+        "operating_system": "Windows 11"
+      }
     },
     {
       "product_id": "PHN001",
       "product_name": "iPhone 14 Pro",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Smartphone",
       "price": 999.99,
       "description": "iPhone 14 Pro with 6.1-inch Super Retina XDR display, A16 Bionic chip, and advanced camera.",
       "speciality": "ProMotion display, Cinematic mode, powerful A16 chip",
-      "stock_availability": "In Stock",
-      "rating": 4.7
+      "stock_availability": true,
+      "rating": 4.7,
+      "specifications": {
+        "processor": "A16 Bionic",
+        "ram": "6GB",
+        "storage": "128GB, 256GB, 512GB, 1TB",
+        "display": "6.1-inch Super Retina XDR (2556 x 1179)",
+        "camera": "48MP wide, 12MP ultra-wide, 12MP telephoto",
+        "battery_life": "Up to 20 hours video playback",
+        "weight": "206 g",
+        "operating_system": "iOS 16"
+      }
     },
     {
       "product_id": "PHN002",
-      "product_name": "Samsung Galaxy S23 Ultra",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_name": "Samsung Galaxy S22 Ultra",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Smartphone",
       "price": 1199.99,
-      "description": "Samsung Galaxy S23 Ultra with 6.8-inch AMOLED display, Snapdragon 8 Gen 2, quad-camera setup.",
-      "speciality": "High-resolution display, S-Pen support, advanced camera",
-      "stock_availability": "In Stock",
-      "rating": 4.8
+      "description": "Samsung Galaxy S22 Ultra with 6.8-inch AMOLED display, 108MP camera, and S Pen support.",
+      "speciality": "High-res camera, built-in S Pen, smooth display",
+      "stock_availability": true,
+      "rating": 4.8,
+      "specifications": {
+        "processor": "Exynos 2200 / Snapdragon 8 Gen 1",
+        "ram": "12GB",
+        "storage": "128GB, 256GB, 512GB, 1TB",
+        "display": "6.8-inch Dynamic AMOLED 2X (3200 x 1440)",
+        "camera": "108MP main, 10MP periscope, 12MP ultra-wide",
+        "battery_life": "Up to 25 hours",
+        "weight": "228 g",
+        "operating_system": "Android 12"
+      }
     },
     {
       "product_id": "PHN003",
       "product_name": "Google Pixel 7 Pro",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Smartphone",
       "price": 899.99,
-      "description": "Google Pixel 7 Pro with 6.7-inch display, Tensor G2 chip, and outstanding camera capabilities.",
-      "speciality": "Excellent camera, clean software, Google AI features",
-      "stock_availability": "In Stock",
-      "rating": 4.6
-    },
-    {
-      "product_id": "PHN004",
-      "product_name": "OnePlus 11",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
-      "category": "Smartphone",
-      "price": 749.99,
-      "description": "OnePlus 11 with 6.55-inch AMOLED display, Snapdragon 8 Gen 2, and ultra-fast charging.",
-      "speciality": "Fast charging, high refresh rate display, OxygenOS",
-      "stock_availability": "In Stock",
-      "rating": 4.4
+      "description": "Google Pixel 7 Pro with 6.7-inch LTPO OLED display, Google Tensor G2 chip, and superior camera.",
+      "speciality": "Exceptional camera, clean Android experience, AI features",
+      "stock_availability": false,
+      "rating": 4.6,
+      "specifications": {
+        "processor": "Google Tensor G2",
+        "ram": "12GB",
+        "storage": "128GB, 256GB, 512GB",
+        "display": "6.7-inch LTPO OLED (3120 x 1440)",
+        "camera": "50MP main, 12MP ultra-wide, 48MP telephoto",
+        "battery_life": "Up to 24 hours",
+        "weight": "212 g",
+        "operating_system": "Android 13"
+      }
     },
     {
       "product_id": "ACC001",
       "product_name": "Apple AirPods Pro",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
       "price": 249.99,
       "description": "Apple AirPods Pro with active noise cancellation, transparency mode, and sweat resistance.",
       "speciality": "ANC, comfortable fit, spatial audio support",
-      "stock_availability": "In Stock",
-      "rating": 4.6
+      "stock_availability": true,
+      "rating": 4.6,
+      "specifications": {
+        "type": "In-ear",
+        "connectivity": "Bluetooth 5.0",
+        "battery_life": "Up to 4.5 hours (single charge), 24 hours with case",
+        "noise_cancellation": "Active Noise Cancellation",
+        "compatibility": "iOS and Android"
+      }
     },
     {
       "product_id": "ACC002",
-      "product_name": "Samsung Fast Charger 25W",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_name": "Samsung 45W Fast Charger",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
-      "price": 19.99,
-      "description": "Samsung Fast Charger with 25W output for fast charging compatible Samsung devices.",
-      "speciality": "Fast charging, USB-C compatibility",
-      "stock_availability": "In Stock",
-      "rating": 4.5
+      "price": 39.99,
+      "description": "Samsung 45W Super Fast Charger for Galaxy devices, USB-C with cable included.",
+      "speciality": "Super fast charging, compact design",
+      "stock_availability": true,
+      "rating": 4.7,
+      "specifications": {
+        "output_power": "45W",
+        "port_type": "USB-C",
+        "compatibility": "Samsung Galaxy series, USB-C devices",
+        "cable_length": "1 meter"
+      }
     },
     {
       "product_id": "ACC003",
-      "product_name": "SanDisk 128GB Ultra USB 3.0 Flash Drive",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_name": "SanDisk Ultra USB 3.0 Flash Drive",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
-      "price": 16.99,
-      "description": "SanDisk Ultra USB 3.0 flash drive with 128GB storage and fast transfer speeds up to 130MB/s.",
-      "speciality": "High-speed data transfer, compact design",
-      "stock_availability": "In Stock",
-      "rating": 4.4
+      "price": 19.99,
+      "description": "SanDisk Ultra 64GB USB 3.0 flash drive for fast file transfers and storage.",
+      "speciality": "High-speed USB 3.0, compact design",
+      "stock_availability": false,
+      "rating": 4.5,
+      "specifications": {
+        "storage_capacity": "64GB",
+        "interface": "USB 3.0",
+        "transfer_speed": "Up to 130MB/s",
+        "compatibility": "USB 2.0 and 3.0 devices"
+      }
     },
     {
-      "product_id": "ACC004",
-      "product_name": "JBL Flip 6 Bluetooth Speaker",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
-      "category": "Accessory",
-      "price": 119.99,
-      "description": "JBL Flip 6 portable Bluetooth speaker with powerful bass and IP67 water resistance.",
-      "speciality": "Portable, waterproof, long battery life",
-      "stock_availability": "In Stock",
-      "rating": 4.7
+      "product_id": "TAB001",
+      "product_name": "Samsung Galaxy Tab S8",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "category": "Tablet",
+      "price": 799.99,
+      "description": "Samsung Galaxy Tab S8 with 11-inch display, Snapdragon 8 Gen 1, and S Pen support.",
+      "speciality": "High-resolution display, S Pen support, multitasking capabilities",
+      "stock_availability": true,
+      "rating": 4.5,
+      "specifications": {
+        "processor": "Snapdragon 8 Gen 1",
+        "ram": "8GB",
+        "storage": "128GB, expandable up to 1TB",
+        "display": "11-inch TFT (2560 x 1600)",
+        "battery": "8000 mAh",
+        "camera": "13MP rear, 6MP front",
+        "weight": "503 g",
+        "operating_system": "Android 12"
+      }
     },
     {
-      "product_id": "ACC005",
-      "product_name": "Sony WH-1000XM5 Headphones",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
-      "category": "Accessory",
-      "price": 349.99,
-      "description": "Sony WH-1000XM5 wireless noise-canceling headphones with superior sound and comfort.",
-      "speciality": "Industry-leading ANC, long battery life, high sound quality",
-      "stock_availability": "Out of Stock",
-      "rating": 4.8
+      "product_id": "TAB002",
+      "product_name": "Apple iPad Pro 12.9",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "category": "Tablet",
+      "price": 1099.99,
+      "description": "Apple iPad Pro 12.9 with M1 chip, Liquid Retina XDR display, and Face ID.",
+      "speciality": "Powerful M1 chip, 120Hz display, high-res camera",
+      "stock_availability": false,
+      "rating": 4.9,
+      "specifications": {
+        "processor": "Apple M1",
+        "ram": "8GB",
+        "storage": "128GB, 256GB, 512GB, 1TB, 2TB",
+        "display": "12.9-inch Liquid Retina XDR",
+        "battery_life": "Up to 10 hours",
+        "camera": "12MP wide, 10MP ultra-wide",
+        "operating_system": "iPadOS"
+      }
     },
     {
-      "product_id": "ACC006",
-      "product_name": "Anker PowerCore 20,000mAh",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
-      "category": "Accessory",
-      "price": 49.99,
-      "description": "Anker PowerCore portable charger with 20,000mAh capacity for multiple device charges.",
-      "speciality": "High capacity, fast charging, compact size",
-      "stock_availability": "In Stock",
-      "rating": 4.6
-    },
-    {
-      "product_id": "ACC007",
-      "product_name": "Logitech MX Master 3 Mouse",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
-      "category": "Accessory",
-      "price": 99.99,
-      "description": "Logitech MX Master 3 wireless mouse with ergonomic design and customizable buttons.",
-      "speciality": "Ergonomic, fast scrolling, customizable",
-      "stock_availability": "In Stock",
-      "rating": 4.8
-    },
-    {
-      "product_id": "ACC008",
-      "product_name": "Belkin USB-C Hub",
-      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
-      "category": "Accessory",
-      "price": 69.99,
-      "description": "Belkin 7-in-1 USB-C hub with HDMI, USB-A, USB-C, SD card reader, and more.",
-      "speciality": "Multi-port expansion, compact, high-speed data transfer",
-      "stock_availability": "In Stock",
-      "rating": 4.5
+      "product_id": "TAB003",
+      "product_name": "Microsoft Surface Pro 8",
+      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "category": "Tablet",
+      "price": 1199.99,
+      "description": "Microsoft Surface Pro 8 with 13-inch display, Intel i5, and Surface Pen support.",
+      "speciality": "Versatile 2-in-1, powerful performance, touch screen",
+      "stock_availability": true,
+      "rating": 4.7,
+      "specifications": {
+        "processor": "Intel Core i5-1135G7",
+        "ram": "8GB",
+        "storage": "128GB SSD",
+        "display": "13-inch PixelSense (2880 x 1920)",
+        "battery_life": "Up to 16 hours",
+        "weight": "891 g",
+        "operating_system": "Windows 11"
+      }
     }
   ]
 }

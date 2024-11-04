@@ -4,23 +4,27 @@ import { FiShoppingCart } from "react-icons/fi";
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
-  let location = useLocation();
+  let {pathname} = useLocation();
+  console.log(pathname);
   const [navbg, setNavBg] = useState("bg-primary");
   const [navText, setNavText] = useState("text-white");
-
+  const [isActive,  setIsActive] = useState(false);
+  const paths =  ["/dashboard", "/statistics", "/product/:id"]
   useEffect(() => {
-    if (location.pathname === "/") {
-      setNavBg("bg-primary");
-      setNavText("text-white");
-    } else {
-      setNavBg("bg-white");
-      setNavText("text-gray-1")
-    }
-  }, [location]);
+    const include = paths.includes(pathname)
+    setIsActive(include)
+    // if (location.pathname === "/") {
+    //   setNavBg("bg-primary");
+    //   setNavText("text-white");
+    // } else {
+    //   setNavBg("bg-white");
+    //   setNavText("text-gray-1")
+    // }
+  }, [pathname]);
 
   return (
     <nav
-      className={`wrapper ${navbg} flex items-center justify-between rounded-lg rounded-b-none py-6 ${navText}`}
+      className={`wrapper ${!isActive ? "bg-primary": "bg-white"} flex items-center justify-between rounded-lg rounded-b-none py-6 ${!isActive ? "text-white": "text-gray-1"}`}
     >
       {/* Logo */}
       <div>

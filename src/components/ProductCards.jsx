@@ -19,9 +19,11 @@ const ProductCards = () => {
   }, [product, products]);
   return (
     <div className="grid grid-cols-3 gap-4">
-      {gadget.map((product) => (
+      {
+      gadget.length > 0 ? gadget.map((product) => (
         <ProductCard key={product.product_id} product={product} />
-      ))}
+      )) : <h2 className="text-5xl text-primary font-bold">No Product</h2>
+      }
     </div>
   );
 };
