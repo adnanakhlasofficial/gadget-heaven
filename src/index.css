@@ -7,7 +7,13 @@
 
 @layer components {
   .btn-secondary {
-    @apply px-6 py-4 bg-white text-primary rounded-[2rem] font-bold text-xl
+    @apply text-primary rounded-[2rem] bg-white px-6 py-4 text-xl font-bold;
+  }
+  .category-btn-active {
+    @apply bg-primary rounded-[2rem] border-2 border-transparent px-5 py-2 text-white;
+  }
+  .category-btn {
+    @apply bg-off-white text-gray border-primary rounded-[2rem] border-2 px-5 py-2;
   }
 }
 

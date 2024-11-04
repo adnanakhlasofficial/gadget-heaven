@@ -2,34 +2,38 @@
   "categories": [
     {
       "category_id": "CAT001",
-      "category_name": "Laptops"
+      "category_name": "All"
     },
     {
       "category_id": "CAT002",
-      "category_name": "Smartphones"
+      "category_name": "Laptop"
     },
     {
       "category_id": "CAT003",
-      "category_name": "Accessories"
+      "category_name": "Smartphone"
     },
     {
       "category_id": "CAT004",
-      "category_name": "Tablets"
+      "category_name": "Accessory"
     },
     {
       "category_id": "CAT005",
-      "category_name": "Smartwatches"
+      "category_name": "Tablet"
     },
     {
       "category_id": "CAT006",
-      "category_name": "Audio"
+      "category_name": "Smartwatch"
     },
     {
       "category_id": "CAT007",
-      "category_name": "Cameras"
+      "category_name": "Audio"
     },
     {
       "category_id": "CAT008",
+      "category_name": "Camera"
+    },
+    {
+      "category_id": "CAT009",
       "category_name": "Gaming"
     }
   ]

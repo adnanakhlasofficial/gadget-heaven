@@ -3,7 +3,7 @@
     {
       "product_id": "LAP001",
       "product_name": "Dell XPS 13",
-      "product_image": "https://example.com/images/dell_xps_13.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Laptop",
       "price": 1199.99,
       "description": "Dell XPS 13 with 13.4-inch FHD+ display, 11th Gen Intel Core i7, and thin, lightweight design.",
@@ -14,7 +14,7 @@
     {
       "product_id": "LAP002",
       "product_name": "MacBook Air M2",
-      "product_image": "https://example.com/images/macbook_air_m2.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Laptop",
       "price": 1299.99,
       "description": "Apple MacBook Air M2 with Retina display, M2 chip, and up to 18 hours of battery life.",
@@ -25,7 +25,7 @@
     {
       "product_id": "LAP003",
       "product_name": "Lenovo ThinkPad X1 Carbon",
-      "product_image": "https://example.com/images/thinkpad_x1_carbon.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Laptop",
       "price": 1449.99,
       "description": "Lenovo ThinkPad X1 Carbon with 14-inch display, Intel i7, and robust build quality.",
@@ -36,7 +36,7 @@
     {
       "product_id": "LAP004",
       "product_name": "HP Spectre x360",
-      "product_image": "https://example.com/images/hp_spectre_x360.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Laptop",
       "price": 1399.99,
       "description": "HP Spectre x360 with 13.3-inch touchscreen display, convertible design, and Intel i7.",
@@ -47,7 +47,7 @@
     {
       "product_id": "PHN001",
       "product_name": "iPhone 14 Pro",
-      "product_image": "https://example.com/images/iphone_14_pro.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Smartphone",
       "price": 999.99,
       "description": "iPhone 14 Pro with 6.1-inch Super Retina XDR display, A16 Bionic chip, and advanced camera.",
@@ -58,7 +58,7 @@
     {
       "product_id": "PHN002",
       "product_name": "Samsung Galaxy S23 Ultra",
-      "product_image": "https://example.com/images/samsung_galaxy_s23_ultra.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Smartphone",
       "price": 1199.99,
       "description": "Samsung Galaxy S23 Ultra with 6.8-inch AMOLED display, Snapdragon 8 Gen 2, quad-camera setup.",
@@ -69,7 +69,7 @@
     {
       "product_id": "PHN003",
       "product_name": "Google Pixel 7 Pro",
-      "product_image": "https://example.com/images/google_pixel_7_pro.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Smartphone",
       "price": 899.99,
       "description": "Google Pixel 7 Pro with 6.7-inch display, Tensor G2 chip, and outstanding camera capabilities.",
@@ -80,7 +80,7 @@
     {
       "product_id": "PHN004",
       "product_name": "OnePlus 11",
-      "product_image": "https://example.com/images/oneplus_11.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Smartphone",
       "price": 749.99,
       "description": "OnePlus 11 with 6.55-inch AMOLED display, Snapdragon 8 Gen 2, and ultra-fast charging.",
@@ -91,7 +91,7 @@
     {
       "product_id": "ACC001",
       "product_name": "Apple AirPods Pro",
-      "product_image": "https://example.com/images/airpods_pro.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
       "price": 249.99,
       "description": "Apple AirPods Pro with active noise cancellation, transparency mode, and sweat resistance.",
@@ -102,7 +102,7 @@
     {
       "product_id": "ACC002",
       "product_name": "Samsung Fast Charger 25W",
-      "product_image": "https://example.com/images/samsung_fast_charger_25w.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
       "price": 19.99,
       "description": "Samsung Fast Charger with 25W output for fast charging compatible Samsung devices.",
@@ -113,7 +113,7 @@
     {
       "product_id": "ACC003",
       "product_name": "SanDisk 128GB Ultra USB 3.0 Flash Drive",
-      "product_image": "https://example.com/images/sandisk_128gb_usb.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
       "price": 16.99,
       "description": "SanDisk Ultra USB 3.0 flash drive with 128GB storage and fast transfer speeds up to 130MB/s.",
@@ -124,7 +124,7 @@
     {
       "product_id": "ACC004",
       "product_name": "JBL Flip 6 Bluetooth Speaker",
-      "product_image": "https://example.com/images/jbl_flip_6.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
       "price": 119.99,
       "description": "JBL Flip 6 portable Bluetooth speaker with powerful bass and IP67 water resistance.",
@@ -135,7 +135,7 @@
     {
       "product_id": "ACC005",
       "product_name": "Sony WH-1000XM5 Headphones",
-      "product_image": "https://example.com/images/sony_wh1000xm5.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
       "price": 349.99,
       "description": "Sony WH-1000XM5 wireless noise-canceling headphones with superior sound and comfort.",
@@ -146,7 +146,7 @@
     {
       "product_id": "ACC006",
       "product_name": "Anker PowerCore 20,000mAh",
-      "product_image": "https://example.com/images/anker_powercore_20000.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
       "price": 49.99,
       "description": "Anker PowerCore portable charger with 20,000mAh capacity for multiple device charges.",
@@ -157,7 +157,7 @@
     {
       "product_id": "ACC007",
       "product_name": "Logitech MX Master 3 Mouse",
-      "product_image": "https://example.com/images/logitech_mx_master_3.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
       "price": 99.99,
       "description": "Logitech MX Master 3 wireless mouse with ergonomic design and customizable buttons.",
@@ -168,7 +168,7 @@
     {
       "product_id": "ACC008",
       "product_name": "Belkin USB-C Hub",
-      "product_image": "https://example.com/images/belkin_usb_c_hub.jpg",
+      "product_image": "https://i.ibb.co.com/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
       "price": 69.99,
       "description": "Belkin 7-in-1 USB-C hub with HDMI, USB-A, USB-C, SD card reader, and more.",

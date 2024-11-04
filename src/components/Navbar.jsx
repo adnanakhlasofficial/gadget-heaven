@@ -9,7 +9,6 @@ const Navbar = () => {
   const [navText, setNavText] = useState("text-white");
 
   useEffect(() => {
-    console.log(location.pathname);
     if (location.pathname === "/") {
       setNavBg("bg-primary");
       setNavText("text-white");

@@ -9,6 +9,9 @@ export default {
       colors: {
         "primary": "#9538E2",
         "gray-1": "#3A3A3A",
+        "deep-black": "#0B0B0B",
+        "off-white": "#F3F3F3",
+        "gray": "#67666A"
       },
       fontFamily: {
         "sora": "Sora",
