@@ -1,0 +1,46 @@
+{
+  "store_branches": [
+    {
+      "branch_id": "BR001",
+      "branch_name": "Downtown Store",
+      "location": "123 Main St, Downtown City",
+      "hotline_number": "+1-555-0101"
+    },
+    {
+      "branch_id": "BR002",
+      "branch_name": "Mall Outlet",
+      "location": "456 Mall Ave, City Center",
+      "hotline_number": "+1-555-0102"
+    },
+    {
+      "branch_id": "BR003",
+      "branch_name": "Suburban Plaza",
+      "location": "789 Suburb Rd, Westside",
+      "hotline_number": "+1-555-0103"
+    },
+    {
+      "branch_id": "BR004",
+      "branch_name": "Airport Kiosk",
+      "location": "101 Terminal Blvd, Airport",
+      "hotline_number": "+1-555-0104"
+    },
+    {
+      "branch_id": "BR005",
+      "branch_name": "University District",
+      "location": "202 Campus Dr, University Town",
+      "hotline_number": "+1-555-0105"
+    },
+    {
+      "branch_id": "BR006",
+      "branch_name": "Eastside Complex",
+      "location": "303 Eastside St, East City",
+      "hotline_number": "+1-555-0106"
+    },
+    {
+      "branch_id": "BR007",
+      "branch_name": "Tech Hub",
+      "location": "404 Innovation Rd, Tech Park",
+      "hotline_number": "+1-555-0107"
+    }
+  ]
+}
