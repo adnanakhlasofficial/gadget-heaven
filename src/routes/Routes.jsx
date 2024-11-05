@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import App from "../App";
 import Home from "../pages/Home";
 import Statistics from "../pages/Statistics";
@@ -16,6 +16,10 @@ const routes = createBrowserRouter([
         element: <Home />,
         loader: () => fetch("/categories.json"),
         children: [
+          {
+            path: "/",
+            element: <Navigate to="/category/All" />
+          },
           {
             path: "/category/:product",
             element: <ProductCards />,

@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { FiHeart } from "react-icons/fi";
 import { FiShoppingCart } from "react-icons/fi";
 import { useEffect, useState } from "react";
@@ -34,16 +34,16 @@ const Navbar = () => {
       <div>
         <ul className="flex gap-4 text-base font-medium">
           <li>
-            <Link to="/">Home</Link>
+            <NavLink className={({isActive})=> `${isActive && "underline underline-offset-4"}`} to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/statistics">Statistics</Link>
+            <NavLink className={({isActive})=> `${isActive && "underline underline-offset-4"}`} to="/statistics">Statistics</NavLink>
           </li>
           <li>
-            <Link to="/dashboard">Dashboard</Link>
+            <NavLink className={({isActive})=> `${isActive && "underline underline-offset-4"}`} to="/dashboard">Dashboard</NavLink>
           </li>
           <li>
-            <Link to="/">Branch</Link>
+            <NavLink className={({isActive})=> `${isActive && "underline underline-offset-4"}`} to="/">Branch</NavLink>
           </li>
         </ul>
       </div>

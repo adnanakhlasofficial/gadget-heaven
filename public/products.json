@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "product_id": "LAP001",
+      "product_id": "01",
       "product_name": "Dell XPS 13",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Laptop",
@@ -22,7 +22,7 @@
       }
     },
     {
-      "product_id": "LAP002",
+      "product_id": "02",
       "product_name": "MacBook Air M2",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Laptop",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "product_id": "LAP003",
+      "product_id": "03",
       "product_name": "HP Spectre x360",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Laptop",
@@ -63,7 +63,7 @@
       }
     },
     {
-      "product_id": "PHN001",
+      "product_id": "04",
       "product_name": "iPhone 14 Pro",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Smartphone",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "product_id": "PHN002",
+      "product_id": "05",
       "product_name": "Samsung Galaxy S22 Ultra",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Smartphone",
@@ -105,7 +105,7 @@
       }
     },
     {
-      "product_id": "PHN003",
+      "product_id": "06",
       "product_name": "Google Pixel 7 Pro",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Smartphone",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "product_id": "ACC001",
+      "product_id": "07",
       "product_name": "Apple AirPods Pro",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "product_id": "ACC002",
+      "product_id": "08",
       "product_name": "Samsung 45W Fast Charger",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
@@ -161,7 +161,7 @@
       }
     },
     {
-      "product_id": "ACC003",
+      "product_id": "09",
       "product_name": "SanDisk Ultra USB 3.0 Flash Drive",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Accessory",
@@ -178,7 +178,7 @@
       }
     },
     {
-      "product_id": "TAB001",
+      "product_id": "10",
       "product_name": "Samsung Galaxy Tab S8",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Tablet",
@@ -199,7 +199,7 @@
       }
     },
     {
-      "product_id": "TAB002",
+      "product_id": "11",
       "product_name": "Apple iPad Pro 12.9",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Tablet",
@@ -219,7 +219,7 @@
       }
     },
     {
-      "product_id": "TAB003",
+      "product_id": "12",
       "product_name": "Microsoft Surface Pro 8",
       "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
       "category": "Tablet",
