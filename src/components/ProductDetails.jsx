@@ -11,15 +11,16 @@ const ProductDetails = () => {
   const [product, setProduct] = useState({});
   const [spec, setSpec] = useState([]);
   const [isWishList, setIsWishList] = useState(false);
-
+  
   useEffect(() => {
-    const findData = products.find((product) => product.product_name == id);
+    const findData = products.find((product) => product.product_id == id);
     setProduct(findData);
 
     const wishlist = getAllWishList();
-    const isExist = wishlist.find((item) => item.product_id === product.product_id);
+    const isExist = wishlist.find((item) => item.product_id === id);
+    console.log(isExist);
     if(isExist) {
-      setIsWishList(true);
+      isExist && setIsWishList(true);
     }
 
     setSpec(Object.values(findData.specifications));

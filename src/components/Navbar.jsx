@@ -5,11 +5,11 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   let {pathname} = useLocation();
-  console.log(pathname);
+
   const [navbg, setNavBg] = useState("bg-primary");
   const [navText, setNavText] = useState("text-white");
   const [isActive,  setIsActive] = useState(false);
-  const paths =  ["/dashboard", "/statistics", "/product/:id"]
+  const paths =  ["/dashboard", "/statistics", "/product/:id", "/branch" ]
   useEffect(() => {
     const include = paths.includes(pathname)
     setIsActive(include)
@@ -34,16 +34,16 @@ const Navbar = () => {
       <div>
         <ul className="flex gap-4 text-base font-medium">
           <li>
-            <NavLink className={({isActive})=> `${isActive && "underline underline-offset-4"}`} to="/">Home</NavLink>
+            <NavLink className={({isActive})=> `${isActive && "underline underline-offset-4 font-bold"}`} to="/category/All">Home</NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=> `${isActive && "underline underline-offset-4"}`} to="/statistics">Statistics</NavLink>
+            <NavLink className={({isActive})=> `${isActive && "text-primary font-bold"}`} to="/statistics">Statistics</NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=> `${isActive && "underline underline-offset-4"}`} to="/dashboard">Dashboard</NavLink>
+            <NavLink className={({isActive})=> `${isActive && "text-primary font-bold"}`} to="/dashboard">Dashboard</NavLink>
           </li>
           <li>
-            <NavLink className={({isActive})=> `${isActive && "underline underline-offset-4"}`} to="/">Branch</NavLink>
+            <NavLink className={({isActive})=> `${isActive && "text-primary font-bold"}`} to="/branch">Branch</NavLink>
           </li>
         </ul>
       </div>
