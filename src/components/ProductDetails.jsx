@@ -3,7 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import Banner from "./Banner";
 import { FiHeart } from "react-icons/fi";
-import { addWishList, getAllWishList } from "../utils";
+import { addCartList, addWishList, getAllCartList, getAllWishList } from "../utils";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -11,6 +11,7 @@ const ProductDetails = () => {
   const [product, setProduct] = useState({});
   const [spec, setSpec] = useState([]);
   const [isWishList, setIsWishList] = useState(false);
+  const [isCartList, setIsCartList] = useState(false);
   
   useEffect(() => {
     const findData = products.find((product) => product.product_id == id);
@@ -21,6 +22,12 @@ const ProductDetails = () => {
     console.log(isExist);
     if(isExist) {
       isExist && setIsWishList(true);
+    }
+
+    const cartlist = getAllCartList();
+    const isExistedCartList = cartlist.find(item => item.product_id === id);
+    if(isExistedCartList) {
+      isExistedCartList && setIsCartList(true);
     }
 
     setSpec(Object.values(findData.specifications));
@@ -45,6 +52,11 @@ const ProductDetails = () => {
     setIsWishList(true);
   }
   
+  // handle cartlist 
+  const handleCartList = product => {
+    addCartList(product);
+    setIsCartList(true)
+  }
 
   return (
     <div className="relative">
@@ -99,7 +111,7 @@ const ProductDetails = () => {
             </div>
           </div>
           <div className="flex gap-4 items-center">
-            <button className="rounded-full bg-primary px-6 py-3 text-white">
+            <button disabled={isCartList} onClick={()=>handleCartList(product)} className={!isCartList ? "rounded-full bg-primary px-6 py-3 text-white" : "rounded-full bg-gray-1 px-6 py-3 text-white"}>
               Add To Cart
             </button>
             <button disabled={isWishList} onClick={()=> handleWishList(product)} className={isWishList ? "grid h-10 w-10 place-items-center rounded-full border-2 bg-gray-1 text-white" : "grid h-10 w-10 place-items-center rounded-full border-2 bg-white text-gray-1" }>

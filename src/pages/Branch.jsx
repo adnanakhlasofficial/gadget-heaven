@@ -5,7 +5,6 @@ import { Helmet } from "react-helmet";
 
 const Branch = () => {
   const { store_branches } = useLoaderData();
-  console.log(store_branches);
   return (
     <div>
       <Helmet>
