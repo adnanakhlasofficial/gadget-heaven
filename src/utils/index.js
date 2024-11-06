@@ -32,4 +32,6 @@ const removeWishlist = id => {
   toast.success('Successfully removed!');
 }
 
+
+
 export { addWishList, getAllWishList, removeWishlist };

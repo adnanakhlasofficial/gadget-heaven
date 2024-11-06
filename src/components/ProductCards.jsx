@@ -22,7 +22,7 @@ const ProductCards = () => {
       {
       gadget.length > 0 ? gadget.map((product) => (
         <ProductCard key={product.product_id} product={product} />
-      )) : <h2 className="text-5xl text-primary font-bold">No Product</h2>
+      )) : <h2 className="text-5xl text-primary font-bold text-nowrap">No Product Found</h2>
       }
     </div>
   );

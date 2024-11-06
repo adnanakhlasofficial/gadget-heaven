@@ -17,7 +17,7 @@ const Statistics = () => {
       />
       <div className="wrapper mt-12">
         <h2 className="text-5xl font-bold text-primary">
-          No Statistics For Now
+          No Data to Show Statistics
         </h2>
       </div>
     </>
