@@ -24,6 +24,11 @@ Gadget Heaven is a one-stop shop for gadget lovers, featuring a variety of gadge
 - React Helmet: Manages document head for SEO and metadata control.
 - DaisyUI: A component library for quickly building stylish UI elements.
 
+
+## Local Storage
+
+In the Gadget Heaven project, I've used Local Storage to handle and manage data. This allows for session persistence, enabling users to return to their previous session data even after leaving the site.
+
 ## Explore Our Live Website
 
 Access the live version of our website to explore all its features and functionalities in real time. Click the link below and experience it firsthand
