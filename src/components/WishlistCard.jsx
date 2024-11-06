@@ -1,6 +1,8 @@
-const WishlistCard = ({ product }) => {
+import { FiX } from "react-icons/fi";
+
+const WishlistCard = ({ product, handleRemove }) => {
   return (
-    <div className="flex items-center gap-8 rounded-2xl bg-off-white p-8">
+    <div className="flex items-center gap-8 rounded-2xl bg-off-white p-8 relative">
       <div>
         <img
           className="h-28 mix-blend-multiply"
@@ -18,6 +20,9 @@ const WishlistCard = ({ product }) => {
         <p className="text-xl font-semibold text-deep-gray">
           Price: ${product.price}
         </p>
+        <div className="absolute top-4 right-8">
+          <button onClick={()=>handleRemove(product.product_id)} className="text-xl p-2 rounded-full border-2 border-[#FF0000] text-p[#FF0000]"><FiX color="#FF0000" /></button>
+        </div>
       </div>
     </div>
   );

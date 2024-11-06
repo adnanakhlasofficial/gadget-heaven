@@ -25,5 +25,11 @@ const addWishList = (product) => {
 };
 
 // remove a product to local storage
+const removeWishlist = id => {
+  const wishList = getAllWishList();
+  const remaining = wishList.filter(product => product.product_id != id);
+  localStorage.setItem("wishlist", JSON.stringify(remaining));
+  toast.success('Successfully removed!');
+}
 
-export { addWishList, getAllWishList };
+export { addWishList, getAllWishList, removeWishlist };
