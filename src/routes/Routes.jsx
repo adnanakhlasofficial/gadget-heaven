@@ -6,11 +6,13 @@ import Dashboard from "../pages/Dashboard";
 import ProductCards from "../components/ProductCards";
 import ProductDetails from "../components/ProductDetails";
 import Branch from "../pages/Branch";
+import Error from "../pages/Error";
 
 const routes = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <Error />,
     children: [
       {
         path: "/",

@@ -2,7 +2,7 @@ import { FiX } from "react-icons/fi";
 
 const CartListCard = ({ product, handleCartRemove }) => {
   return (
-    <div className="relative flex items-center gap-8 rounded-2xl bg-off-white p-8">
+    <div className="relative flex flex-col lg:flex-row items-center gap-8 rounded-2xl bg-off-white p-8">
       <div>
         <img
           className="h-28 mix-blend-multiply"

@@ -10,7 +10,7 @@ const Footer = () => {
             Leading the way in cutting-edge technology and innovation.
           </p>
         </div>
-        <div className="grid grid-cols-3 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-3 mt-8">
           <div className="space-y-4">
             <h3 className="text-deep-black text-xl font-bold">Services</h3>
             <ul className="space-y-2 text-gray">

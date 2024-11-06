@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`wrapper ${!isActive ? "bg-primary": "bg-white"} flex items-center justify-between rounded-lg rounded-b-none py-6 ${!isActive ? "text-white": "text-gray-1"}`}
+      className={`wrapper flex lg:flex-row flex-col justify-between gap-4 ${!isActive ? "bg-primary": "bg-white"} flex items-center justify-between rounded-lg rounded-b-none py-6 ${!isActive ? "text-white": "text-gray-1"}`}
     >
       {/* Logo */}
       <div>
@@ -61,7 +61,7 @@ const Navbar = () => {
           <FiShoppingCart />
         </button>
         <button className="text-gray-1 border-2 grid h-10 w-10 place-items-center rounded-full bg-white">
-          <FiHeart /> <span>{wishlist}</span>
+          <FiHeart />
         </button>
       </div>
     </nav>

@@ -3,7 +3,7 @@
     {
       "product_id": "01",
       "product_name": "Dell XPS 13",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/bBpD6d6/Dell-XPS-13.png",
       "category": "Laptop",
       "price": 1199.99,
       "description": "Dell XPS 13 with 13.4-inch FHD+ display, 11th Gen Intel Core i7, and thin design.",
@@ -24,7 +24,7 @@
     {
       "product_id": "02",
       "product_name": "MacBook Air M2",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/sCy3K6w/Mac-Book-Air-M2.jpg",
       "category": "Laptop",
       "price": 1249.99,
       "description": "Apple MacBook Air with M2 chip, 13.6-inch Retina display, and all-day battery life.",
@@ -44,7 +44,7 @@
     {
       "product_id": "03",
       "product_name": "HP Spectre x360",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/Fx3ySJ1/HP-Spectre-x360.jpg",
       "category": "Laptop",
       "price": 1399.99,
       "description": "HP Spectre x360 with 13.5-inch UHD OLED touch display and Intel Evo technology.",
@@ -65,7 +65,7 @@
     {
       "product_id": "04",
       "product_name": "iPhone 14 Pro",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/mzbwhwK/i-Phone-14-Pro.jpg",
       "category": "Smartphone",
       "price": 999.99,
       "description": "iPhone 14 Pro with 6.1-inch Super Retina XDR display, A16 Bionic chip, and advanced camera.",
@@ -86,7 +86,7 @@
     {
       "product_id": "05",
       "product_name": "Samsung Galaxy S22 Ultra",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/GCncMGf/Samsung-Galaxy-S22-Ultra.png",
       "category": "Smartphone",
       "price": 1199.99,
       "description": "Samsung Galaxy S22 Ultra with 6.8-inch AMOLED display, 108MP camera, and S Pen support.",
@@ -107,7 +107,7 @@
     {
       "product_id": "06",
       "product_name": "Google Pixel 7 Pro",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/cwpSzdN/Google-Pixel-7-Pro.png",
       "category": "Smartphone",
       "price": 899.99,
       "description": "Google Pixel 7 Pro with 6.7-inch LTPO OLED display, Google Tensor G2 chip, and superior camera.",
@@ -128,7 +128,7 @@
     {
       "product_id": "07",
       "product_name": "Apple AirPods Pro",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/QYyvX3N/Apple-Air-Pods-Pro.png",
       "category": "Accessory",
       "price": 249.99,
       "description": "Apple AirPods Pro with active noise cancellation, transparency mode, and sweat resistance.",
@@ -146,7 +146,7 @@
     {
       "product_id": "08",
       "product_name": "Samsung 45W Fast Charger",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/5scFbN0/Samsung-45-W-Fast-Charger.png",
       "category": "Accessory",
       "price": 39.99,
       "description": "Samsung 45W Super Fast Charger for Galaxy devices, USB-C with cable included.",
@@ -163,7 +163,7 @@
     {
       "product_id": "09",
       "product_name": "SanDisk Ultra USB 3.0 Flash Drive",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/ryMwmcX/San-Disk-Ultra-USB-3-0-Flash-Drive.png",
       "category": "Accessory",
       "price": 19.99,
       "description": "SanDisk Ultra 64GB USB 3.0 flash drive for fast file transfers and storage.",
@@ -180,7 +180,7 @@
     {
       "product_id": "10",
       "product_name": "Samsung Galaxy Tab S8",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/1X29cV4/Samsung-Galaxy-Tab-S8.png",
       "category": "Tablet",
       "price": 799.99,
       "description": "Samsung Galaxy Tab S8 with 11-inch display, Snapdragon 8 Gen 1, and S Pen support.",
@@ -201,7 +201,7 @@
     {
       "product_id": "11",
       "product_name": "Apple iPad Pro 12.9",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/Km3rztT/Apple-i-Pad-Pro-12-9.png",
       "category": "Tablet",
       "price": 1099.99,
       "description": "Apple iPad Pro 12.9 with M1 chip, Liquid Retina XDR display, and Face ID.",
@@ -221,7 +221,7 @@
     {
       "product_id": "12",
       "product_name": "Microsoft Surface Pro 8",
-      "product_image": "https://i.ibb.co/3NmP7Nx/xps-13-1-500x500.jpg",
+      "product_image": "https://i.ibb.co.com/0tq3wTq/Microsoft-Surface-Pro-8.png",
       "category": "Tablet",
       "price": 1199.99,
       "description": "Microsoft Surface Pro 8 with 13-inch display, Intel i5, and Surface Pen support.",

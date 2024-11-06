@@ -17,7 +17,7 @@ const Home = () => {
       <h2 className="mt-[30rem] text-center text-[2.5rem] font-bold text-deep-black">
         Explore Cutting-Edge Gadgets
       </h2>
-      <div className="mt-12 flex gap-12 rounded-3xl border-2 border-off-white p-8">
+      <div className="mt-12 flex lg:flex-row flex-col gap-12 rounded-3xl border-2 border-off-white p-8">
         <Categories categories={categories} />
         <Outlet />
       </div>

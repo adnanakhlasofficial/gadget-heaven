@@ -22,7 +22,7 @@
     @apply container mx-auto px-12;
   }
   .heading {
-    @apply text-[3.5rem] font-bold leading-[4.5rem];
+    @apply lg:text-[3.5rem] text-3xl leading-[3rem] font-bold lg:leading-[4.5rem];
   }
   .desc {
     @apply text-base;

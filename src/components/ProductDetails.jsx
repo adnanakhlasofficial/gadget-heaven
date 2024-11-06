@@ -65,7 +65,7 @@ const ProductDetails = () => {
         desc={`Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!`}
         padding={"pb-48"}
       />
-      <div className="wrapper relative -top-48 mt-12 flex !w-10/12 gap-8 rounded-3xl bg-off-white p-8">
+      <div className="wrapper relative -top-48 mt-12 flex flex-col lg:flex-row lg:!w-10/12 gap-8 rounded-3xl bg-off-white p-8">
         <div>
           <img className="mix-blend-multiply" src={product_image} alt="" />
         </div>

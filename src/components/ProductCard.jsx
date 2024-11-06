@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const ProductCard = ({ product }) => {
   const { product_id, product_name, price, product_image} = product;
   return (
-    <div className="bg-off-white rounded-2xl p-5 flex flex-col">
+    <div className="bg-off-white rounded-2xl p-5 flex h-max flex-col">
       <div>
         <img
           className="rounded-lg mix-blend-multiply"
@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
           alt=""
         />
       </div>
-      <div className="flex-grow my-4 space-y-2">
+      <div className="flex-grow h-28 my-4 space-y-2">
         <h2 className="text-deep-black text-2xl font-semibold">
           {product_name}
         </h2>

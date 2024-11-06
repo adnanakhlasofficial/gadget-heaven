@@ -2,7 +2,7 @@ import { FiX } from "react-icons/fi";
 
 const WishlistCard = ({ product, handleRemove }) => {
   return (
-    <div className="flex items-center gap-8 rounded-2xl bg-off-white p-8 relative">
+    <div className="flex flex-col lg:flex-row items-center gap-8 rounded-2xl bg-off-white p-8 relative">
       <div>
         <img
           className="h-28 mix-blend-multiply"

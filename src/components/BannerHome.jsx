@@ -17,8 +17,8 @@ const BannerHome = () => {
         <button className="btn-secondary">Shop Now</button>
       </div>
       {/* Banner Image */}
-      <div className="absolute top-[75%] w-8/12 h-[32rem] rounded-xl border-2 border-white bg-white/30 p-4 backdrop-blur-lg">
-        <img className="w-full h-full object-cover object-center rounded-lg" src={bannerImg} alt="" />
+      <div className="absolute top-[90%] lg:top-[75%] w-11/12 lg:w-8/12 h-[32rem] rounded-xl border-2 border-white bg-white/30 p-4 backdrop-blur-lg">
+        <img className="w-full h-full lg:object-cover object-center rounded-lg" src={bannerImg} alt="" />
       </div>
     </div>
   );
