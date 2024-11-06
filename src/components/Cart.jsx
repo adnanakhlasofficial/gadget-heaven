@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 import { getAllCartList, removeCartList } from "../utils";
 import CartListCard from "./CartListCard";
 import success from "../assets/success.svg"
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const [products, setProducts] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
-
+  const navigate = useNavigate();
+  
   useEffect(() => {
     const cartlist = getAllCartList();
     // console.log(cartlist);
@@ -29,10 +31,14 @@ const handleSort = () => {
     document.getElementById("my_modal_1").showModal()
     setProducts([]);
     localStorage.setItem("cartlist", JSON.stringify([]));
+    
   };
 
   const handleClose = () => {
     setTotalPrice(0)
+    setTimeout(() => {
+      navigate("/")
+    }, 300);
   }
 
   const handleCartRemove = (id) => {
